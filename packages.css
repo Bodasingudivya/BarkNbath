@@ -57,49 +57,6 @@
         transition: 2s;
     }
 
-    .header {
-        height: 520px;
-        width: 100%;
-        /* border: 1px solid red; */
-        background-color: rgb(236, 237, 240);
-    }
-
-    .head {
-        margin-top: 40px;
-        float: left;
-        margin-left: 100px;
-
-    }
-
-    .head img {
-        margin-left: 80px;
-    }
-
-    .head h1 {
-        font-size: 60px;
-        font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
-    }
-
-    .head h4 {
-        margin-top: 10px;
-        font-size: 20px;
-        font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
-    }
-
-    .head button {
-        margin-top: 150px;
-        margin-left: 350px;
-        padding: 10px 25px;
-        border-radius: 25px;
-        font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
-        background-color: pink;
-    }
-
-    .head button:hover {
-        transform: scale(1.2);
-        background-color: green;
-    }
-
     .pack {
         height: 80px;
         width: 100%;
@@ -109,8 +66,9 @@
 
     .pack {
         font-size: 30px;
-        background-color: rgb(204, 224, 239);
+        /* background-color: rgb(204, 224, 239); */
         text-align: center;
+        padding-top: 40px;
     }
 
     .cards {
@@ -167,120 +125,6 @@
         background-color: black;
         color: white;
         margin-top: 5px;
-    }
-
-    .middlepart {
-        height: 420px;
-        width: 100%;
-        /* border: 1px solid red; */
-        background-color: rgb(235, 244, 244);
-
-    }
-
-    .middle {
-        float: left;
-        margin-left: 30px;
-        margin-top: 40px;
-    }
-
-    .middle img {
-        height: 350px;
-        margin-left: 60px;
-    }
-
-    .middle img:hover {
-        transform: scale(1.1);
-        transition: 2s;
-    }
-
-    .middle h1 {
-        margin-left: 130px;
-    }
-
-    .middle p {
-        margin-top: 10px;
-        margin-left: 130px;
-        font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
-    }
-
-    .middlepart1 {
-        height: 380px;
-        width: 100%;
-        /* border: 1px solid red; */
-        background-color: rgb(235, 244, 244);
-    }
-
-    .middle1 img {
-        height: 330px;
-    }
-
-    .middle1 img:hover {
-        transform: scale(1.1);
-        transition: 2s;
-    }
-
-    .middle1 {
-        float: left;
-        margin-left: 150px;
-        margin-top: 20px;
-    }
-
-    .middle1 h1 {
-        font-family: Verdana, Geneva, Tahoma, sans-serif;
-    }
-
-    .middle1 p {
-        font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
-    }
-
-    .middle h1 {
-        font-family: Verdana, Geneva, Tahoma, sans-serif;
-    }
-
-    .customer {
-        height: 280px;
-        width: 100%;
-        /* border: 1px solid red; */
-    }
-
-    .custom {
-        float: left;
-        margin-left: 130px;
-        margin-top: 60px;
-    }
-
-    .custom p {
-        font-family: sans-serif;
-    }
-
-    .custom h1 {
-        font-family: Verdana, Geneva, Tahoma, sans-serif;
-    }
-
-    .lastpart {
-        height: 480px;
-        width: 100%;
-        /* border: 1px solid red; */
-        background-color: rgb(235, 244, 244);
-
-    }
-
-    .last {
-        float: left;
-        margin-left: 180px;
-        margin-top: 40px;
-    }
-
-    .last h1 {
-        font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
-    }
-
-    .last p {
-        font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
-    }
-
-    .last span {
-        font-size: 60px;
     }
 
     .footer {
@@ -344,6 +188,7 @@
         bottom: 0;
 
     }
+
 
 
 }
